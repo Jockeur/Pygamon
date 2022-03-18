@@ -72,6 +72,7 @@ class MapManager:
                     copy_portal = portal
                     self.current_map = portal.target_world
                     self.teleport_player(copy_portal.teleport_point)
+
         # vérifier la collision
         for sprite in self.get_group().sprites():
 
