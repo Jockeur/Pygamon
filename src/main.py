@@ -1,9 +1,9 @@
 import pygame
-
-from src.game import Game
+import gui.guis as menu
 
 if __name__ == '__main__':
     pygame.init()
-    game = Game()
-    game.run()
+    game = menu
+    menu.main_menu()
+
 

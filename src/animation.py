@@ -23,7 +23,7 @@ class AnimateSprite(pygame.sprite.Sprite):
 
         if self.clock >= 100:
 
-            self.animation_index += 1 # passer à l'image suivante
+            self.animation_index += 1  # passer à l'image suivante
 
             if self.animation_index >= len(self.images[name]):
                 self.animation_index = 0
